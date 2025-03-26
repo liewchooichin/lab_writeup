@@ -1,0 +1,18 @@
+# Scan my own home network with this network mask
+
+└──╼ $sudo nmap -sn -PE 192.168.0.0/24
+
+[sudo] password for parrot: 
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-25 22:10 +08
+Nmap scan report for _gateway (192.168.0.1)
+Host is up (0.0043s latency).
+Nmap scan report for 192.168.0.152
+Host is up (0.0096s latency).
+Nmap scan report for 192.168.0.160  ==> bei
+Host is up (0.22s latency).
+Nmap scan report for liewchooichin-Modern-15-H-B13M (192.168.0.222)
+Host is up (0.00053s latency).
+Nmap scan report for 192.168.0.231  ==> my mobile
+Host is up (0.27s latency).
+Nmap done: 256 IP addresses (5 hosts up) scanned in 3.15 seconds
+

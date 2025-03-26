@@ -1,0 +1,5 @@
+/data                [36m (Status: 301)[0m [Size: 323][34m [--> http://gettingstarted.htb/data/][0m
+/admin               [36m (Status: 301)[0m [Size: 324][34m [--> http://gettingstarted.htb/admin/][0m
+/plugins             [36m (Status: 301)[0m [Size: 326][34m [--> http://gettingstarted.htb/plugins/][0m
+/theme               [36m (Status: 301)[0m [Size: 324][34m [--> http://gettingstarted.htb/theme/][0m
+/backups             [36m (Status: 301)[0m [Size: 326][34m [--> http://gettingstarted.htb/backups/][0m

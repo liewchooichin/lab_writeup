@@ -1,0 +1,20 @@
+# Nmap 7.94SVN scan initiated Sun Mar 23 11:45:27 2025 as: nmap -Pn -sV -oA scan_1 -vv 10.129.41.215
+Increasing send delay for 10.129.41.215 from 0 to 5 due to 11 out of 32 dropped probes since last increase.
+Increasing send delay for 10.129.41.215 from 5 to 10 due to 15 out of 49 dropped probes since last increase.
+Increasing send delay for 10.129.41.215 from 10 to 20 due to 11 out of 33 dropped probes since last increase.
+Increasing send delay for 10.129.41.215 from 40 to 80 due to 16 out of 53 dropped probes since last increase.
+Increasing send delay for 10.129.41.215 from 80 to 160 due to 12 out of 38 dropped probes since last increase.
+Increasing send delay for 10.129.41.215 from 160 to 320 due to 11 out of 24 dropped probes since last increase.
+Increasing send delay for 10.129.41.215 from 320 to 640 due to 18 out of 58 dropped probes since last increase.
+Nmap scan report for 10.129.41.215
+Host is up, received user-set (0.82s latency).
+Scanned at 2025-03-23 11:45:27 +08 for 547s
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    syn-ack Apache httpd 2.4.18 ((Ubuntu))
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Mar 23 11:54:34 2025 -- 1 IP address (1 host up) scanned in 546.95 seconds
