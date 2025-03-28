@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Thu Mar 27 23:15:56 2025 as: nmap -sS -T4 -p- -oA scan_result 10.129.21.30
+Host: 10.129.21.30 ()	Status: Up
+Host: 10.129.21.30 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 110/open/tcp//pop3///, 139/open/tcp//netbios-ssn///, 143/open/tcp//imap///, 445/open/tcp//microsoft-ds///, 31337/open/tcp//Elite///, 33676/filtered/tcp/////, 35630/filtered/tcp/////, 61671/filtered/tcp/////, 63932/filtered/tcp/////	Ignored State: closed (65524)
+# Nmap done at Fri Mar 28 00:06:11 2025 -- 1 IP address (1 host up) scanned in 3014.94 seconds

@@ -1,0 +1,12 @@
+# Nmap 7.94SVN scan initiated Fri Mar 28 00:15:08 2025 as: nmap -sC -p 22 -oA script_result 10.129.21.30
+Nmap scan report for 10.129.21.30
+Host is up (0.30s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+| ssh-hostkey: 
+|   2048 71:c1:89:90:7f:fd:4f:60:e0:54:f3:85:e6:35:6c:2b (RSA)
+|   256 e1:8e:53:18:42:af:2a:de:c0:12:1e:2e:54:06:4f:70 (ECDSA)
+|_  256 1a:cc:ac:d4:94:5c:d6:1d:71:e7:39:de:14:27:3c:3c (ED25519)
+
+# Nmap done at Fri Mar 28 00:15:40 2025 -- 1 IP address (1 host up) scanned in 31.54 seconds

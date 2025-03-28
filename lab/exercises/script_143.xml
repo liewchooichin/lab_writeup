@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Fri Mar 28 00:22:24 2025 as: nmap -sC -p 143 -oA script_143 10.129.21.30 -->
+<nmaprun scanner="nmap" args="nmap -sC -p 143 -oA script_143 10.129.21.30" start="1743092544" startstr="Fri Mar 28 00:22:24 2025" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="143"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.21.30" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1743092545" endtime="1743092557"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.129.21.30" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="imap" method="table" conf="3"/><script id="imap-capabilities" output="LITERAL+ listed IMAP4rev1 ENABLE post-login capabilities OK ID IDLE have LOGINDISABLEDA0001 Pre-login LOGIN-REFERRALS more SASL-IR"/></port>
+</ports>
+<times srtt="316750" rttvar="324856" to="1616174"/>
+</host>
+<runstats><finished time="1743092557" timestr="Fri Mar 28 00:22:37 2025" summary="Nmap done at Fri Mar 28 00:22:37 2025; 1 IP address (1 host up) scanned in 12.68 seconds" elapsed="12.68" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

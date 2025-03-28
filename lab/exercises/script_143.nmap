@@ -1,0 +1,9 @@
+# Nmap 7.94SVN scan initiated Fri Mar 28 00:22:24 2025 as: nmap -sC -p 143 -oA script_143 10.129.21.30
+Nmap scan report for 10.129.21.30
+Host is up (0.32s latency).
+
+PORT    STATE SERVICE
+143/tcp open  imap
+|_imap-capabilities: LITERAL+ listed IMAP4rev1 ENABLE post-login capabilities OK ID IDLE have LOGINDISABLEDA0001 Pre-login LOGIN-REFERRALS more SASL-IR
+
+# Nmap done at Fri Mar 28 00:22:37 2025 -- 1 IP address (1 host up) scanned in 12.68 seconds

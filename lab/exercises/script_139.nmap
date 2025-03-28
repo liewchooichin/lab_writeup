@@ -1,0 +1,30 @@
+# Nmap 7.94SVN scan initiated Fri Mar 28 00:20:53 2025 as: nmap -sC -p 139 -oA script_139 10.129.21.30
+Nmap scan report for 10.129.21.30
+Host is up (2.1s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+
+Host script results:
+| smb2-time: 
+|   date: 2025-03-27T08:21:02
+|_  start_date: N/A
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.7.6-Ubuntu)
+|   Computer name: nix-nmap-default
+|   NetBIOS computer name: NIX-NMAP-DEFAULT\x00
+|   Domain name: \x00
+|   FQDN: nix-nmap-default
+|_  System time: 2025-03-27T09:21:02+01:00
+|_clock-skew: mean: -8h19m59s, deviation: 34m34s, median: -8h00m01s
+|_nbstat: NetBIOS name: NIX-NMAP-DEFAUL, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+
+# Nmap done at Fri Mar 28 00:21:34 2025 -- 1 IP address (1 host up) scanned in 40.41 seconds
